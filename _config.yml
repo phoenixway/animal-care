@@ -6,7 +6,11 @@ baseurl: "/animal-care"
 url: "https://phoenixway.github.io"
 
 # ВАЖЛИВО: використовуємо іншу тему!
-theme: jekyll-theme-minima 
+# In the plugins section
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+
+# Theme setting
+remote_theme: jekyll/minima
