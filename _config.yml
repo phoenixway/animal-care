@@ -1,20 +1,20 @@
-title: "Animal Volunteer Aid" # Або інша назва
+title: "Animal Volunteer Aid"
 description: "A practical knowledge base for pet owners and zoo volunteers. Note: This is not a substitute for professional veterinary advice."
 
-# ВАЖЛИВО: замініть "animal-care-kb" на назву вашого репозиторію
 baseurl: "/animal-care"
 url: "https://phoenixway.github.io"
 
-# ВАЖЛИВО: використовуємо іншу тему!
-# In the plugins section
+# ВИКОРИСТОВУЄМО НАДІЙНИЙ МЕТОД ЗАВАНТАЖЕННЯ ТЕМИ
+remote_theme: just-the-docs/just-the-docs
+
+# Налаштування для just-the-docs
+color_scheme: light # Можна змінити на dark
+search_enabled: true # Вмикає поле пошуку по сайту
+
+# Плагіни
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-default-layout
-
-
-# Theme setting
-#remote_theme: just-the-docs/just-the-docs
-theme: just-the-docs
-
+  
