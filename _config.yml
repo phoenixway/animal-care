@@ -1,0 +1,12 @@
+title: "Animal Volunteer Aid" # Або інша назва
+description: "A practical knowledge base for pet owners and zoo volunteers. Note: This is not a substitute for professional veterinary advice."
+
+# ВАЖЛИВО: замініть "animal-care-kb" на назву вашого репозиторію
+baseurl: "/animal-care"
+url: "https://phoenixway.github.io"
+
+# ВАЖЛИВО: використовуємо іншу тему!
+theme: jekyll-theme-minima 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
